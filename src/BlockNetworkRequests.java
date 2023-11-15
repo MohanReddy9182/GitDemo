@@ -33,6 +33,8 @@ System.setProperty("webdriver.chrome.driver", "/Users/rahulshetty/Documents/chro
 		System.out.println(driver.findElement(By.cssSelector("p")).getText());
 		long endTime = System.currentTimeMillis();
 		System.out.println(endTime - startTime);
+		System.out.println(endTime);
+		System.out.println(startTime);
 		//1793 2033
 		
 		
