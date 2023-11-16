@@ -26,6 +26,9 @@ System.setProperty("webdriver.chrome.driver", "/Users/rahulshetty/Documents/chro
 		devTools.send(Network.enable(Optional.empty(), Optional.empty(), Optional.empty()));
 		devTools.send(Network.setBlockedURLs(ImmutableList.of("*.jpg","*.css")));
 		long startTime = System.currentTimeMillis();
+		System.out.println(startTime);
+		System.out.println(startTime);
+		System.out.println(startTime);
 		driver.get("https://rahulshettyacademy.com/angularAppdemo/");
 		driver.findElement(By.linkText("Browse Products")).click();
 		driver.findElement(By.linkText("Selenium")).click();
